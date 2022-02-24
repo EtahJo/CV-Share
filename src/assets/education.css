@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Enriqueta:wght@700&family=Montserrat:wght@900&family=Russo+One&display=swap");
+.education {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #005dd4;
+  margin: 10px 0;
+  width: 190px;
+}
+
+.education .educationYear {
+  background-color: #005dd4;
+  color: white;
+  position: relative;
+  padding: 0 20px;
+  font-family: Enriqueta;
+}
+
+.education .educationYear h3 {
+  font-size: 20px;
+}
+
+.education .educationYear p {
+  background-color: white;
+  position: absolute;
+  width: 50px;
+  color: black;
+  padding: 6px;
+  font-size: 12px;
+  right: 0;
+  text-align: center;
+}
+
+.education .educationInsti {
+  background-color: white;
+  color: #000;
+  position: relative;
+  padding: 0 20px;
+  font-family: Enriqueta;
+}
+
+.education .educationInsti h3 {
+  font-size: 20px;
+}
+
+.education .educationInsti p {
+  background-color: #005dd4;
+  position: absolute;
+  color: white;
+  width: 50px;
+  padding: 6px;
+  font-size: 11px;
+  right: 0;
+  text-align: center;
+}
+
+.education .educationMajor {
+  background-color: #005dd4;
+  color: white;
+  position: relative;
+  padding: 0 20px;
+  font-family: Enriqueta;
+}
+
+.education .educationMajor h3 {
+  font-size: 20px;
+}
+
+.education .educationMajor p {
+  background-color: white;
+  position: absolute;
+  width: 50px;
+  color: black;
+  padding: 6px;
+  font-size: 12px;
+  right: 0;
+  text-align: center;
+}
+
+.education .educationCerti {
+  background-color: white;
+  color: #000;
+  position: relative;
+  padding: 0 20px;
+  font-family: Enriqueta;
+}
+
+.education .educationCerti h3 {
+  font-size: 20px;
+}
+
+.education .educationCerti p {
+  background-color: #005dd4;
+  position: absolute;
+  color: white;
+  width: 50px;
+  padding: 6px;
+  font-size: 11px;
+  right: 0;
+}
+/*# sourceMappingURL=education.css.map */

@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Enriqueta:wght@700&family=Montserrat:wght@900&family=Russo+One&display=swap");
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (max-width: 1256px) {
+  .navbar {
+    width: 150px;
+  }
+}
+
+.navbar .navbarTitle {
+  font-family: Russo One;
+  font-size: 20px;
+  margin: 10px auto;
+}
+
+@media (max-width: 1256px) {
+  .navbar .navbarTitle {
+    font-size: 15px;
+  }
+}
+
+.navbar .navbarMenu {
+  font-family: Enriqueta;
+  color: #005dd4;
+  font-size: 20px;
+  margin: auto;
+}
+
+@media (max-width: 1256px) {
+  .navbar .navbarMenu {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 962px) {
+  .navbar .navbarMenu {
+    float: left;
+    -webkit-writing-mode: tb-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: tb-rl;
+    /*IE*/
+    -webkit-writing-mode: vertical-lr;
+        -ms-writing-mode: tb-lr;
+            writing-mode: vertical-lr;
+    /* OPera/webkit*/
+    -webkit-writing-mode: sideways-lr;
+        -ms-writing-mode: sideways-lr;
+            writing-mode: sideways-lr;
+    /* should be the one */
+  }
+}
+
+.navbar .navbarMenu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+@media (max-width: 962px) {
+  .navbar .navbarMenu ul {
+    display: table;
+    height: 100vh;
+    text-align: center;
+  }
+}
+
+.navbar .navbarMenu ul li {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  width: 200px;
+  height: 30px;
+  margin: 5px 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-transition: color 400ms ease-in-out;
+  transition: color 400ms ease-in-out;
+}
+
+@media (max-width: 962px) {
+  .navbar .navbarMenu ul li {
+    display: inline-block !important;
+  }
+}
+
+.navbar .navbarMenu ul li:hover {
+  color: white;
+}
+
+.navbar .navbarMenu ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  -webkit-transform: scaleY(0.1);
+          transform: scaleY(0.1);
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  z-index: -1;
+  background-color: #005dd4;
+  -webkit-transition: -webkit-transform 400ms ease-in-out;
+  transition: -webkit-transform 400ms ease-in-out;
+  transition: transform 400ms ease-in-out;
+  transition: transform 400ms ease-in-out, -webkit-transform 400ms ease-in-out;
+}
+
+@media (max-width: 1256px) {
+  .navbar .navbarMenu ul li::before {
+    width: 150px;
+  }
+}
+
+.navbar .navbarMenu ul li:hover::before, .navbar .navbarMenu ul li:focus::before {
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+}
+/*# sourceMappingURL=navbar.css.map */

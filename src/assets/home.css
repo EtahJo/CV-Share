@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Enriqueta:wght@700&family=Montserrat:wght@900&family=Russo+One&display=swap");
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: relative;
+  /* ff 3.6+ */
+  /* safari 5.1+,chrome 10+ */
+  /* opera 11.10+ */
+  background: -o-linear-gradient(90deg, blue 0%, violet 100%);
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee82ee', endColorstr='#0000FF', GradientType=0 );
+  /* ie 10+ */
+  /* global 94%+ browsers support */
+  background: -webkit-gradient(linear, left top, right top, from(blue), to(violet));
+  background: linear-gradient(90deg, blue 0%, violet 100%);
+}
+
+.home .homePreHeader {
+  position: absolute;
+  right: 0px;
+}
+
+.home .homeContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.home .homeContent .homeOne {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+  height: 500px;
+}
+
+@media (max-width: 962px) {
+  .home .homeContent .homeOne {
+    margin-left: 0;
+  }
+}
+
+.home .homeContent .homeFour {
+  -webkit-box-flex: 0.8;
+      -ms-flex: 0.8;
+          flex: 0.8;
+}
+
+.home .homeContent .homeO {
+  -webkit-box-flex: 0.8;
+      -ms-flex: 0.8;
+          flex: 0.8;
+}
+
+.home .homeContent .homeTwo {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.home .homeContent .homeThree {
+  height: 500px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  position: fixed;
+  right: 0;
+}
+/*# sourceMappingURL=home.css.map */

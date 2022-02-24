@@ -1,0 +1,65 @@
+@import "./variables/Variables.scss";
+
+.midlayer{
+    display: flex;
+    flex-direction: column;
+    .midlayerHeader{
+        h1{
+        color: $blueColor;
+        text-align: center;
+        margin: 10px auto 0 auto;
+        font-family: $titleFont;
+        background-color: $whiteColor;
+        padding: 10px;
+        width: 250px;
+        @include BoxShadow(#000);
+        }
+        
+    }
+    .midlayerProfile{
+        background-color:$whiteColor;
+        border-radius: $borderRadius;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 0 auto;
+        
+    }
+    .midlayerEducation{
+        background-color:$whiteColor;
+        border-radius: $borderRadius;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 20px 0;
+        .midlayerEduContent{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    }
+    .midlayerProject{
+        background-color:$whiteColor;
+        border-radius: $borderRadius;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 20px 0;
+        .midlayerProContent{
+            margin: 15px auto;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    }
+    .midlayerExperiences{
+        background-color:$whiteColor;
+        border-radius: $borderRadius;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 20px 0;
+        .midlayerExpContent{
+            margin: 15px auto;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    }
+}

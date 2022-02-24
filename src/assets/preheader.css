@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Enriqueta:wght@700&family=Montserrat:wght@900&family=Russo+One&display=swap");
+.preheader {
+  background-color: #005dd4;
+}
+
+.preheader .preheaderData {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 2px solid #000;
+}
+
+.preheader .preheaderData ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.preheader .preheaderData ul li {
+  list-style: none;
+  color: white;
+  padding: 10px;
+  border-right: 2px solid white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.preheader .preheaderData ul li:hover, .preheader .preheaderData ul li:focus {
+  background-color: white;
+  color: black;
+}
+/*# sourceMappingURL=preheader.css.map */

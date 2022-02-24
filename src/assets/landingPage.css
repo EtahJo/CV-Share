@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Enriqueta:wght@700&family=Montserrat:wght@900&family=Russo+One&display=swap");
+.landingPage {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 80, 0, 0.7)), color-stop(0%, rgba(238, 130, 238, 0.7)), color-stop(76%, rgba(0, 93, 212, 0.7))), url("https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM2fHxzdHVkZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60") no-repeat center center/cover;
+  background: linear-gradient(90deg, rgba(255, 80, 0, 0.7) 0%, rgba(238, 130, 238, 0.7) 0%, rgba(0, 93, 212, 0.7) 76%), url("https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM2fHxzdHVkZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60") no-repeat center center/cover;
+  margin: auto;
+  padding-top: 30px;
+  position: relative;
+}
+
+.landingPage .landingPageHeader h1 {
+  text-align: center;
+  font-size: 80px;
+  font-family: Russo One;
+  color: black;
+  -webkit-box-shadow: 0px 0px 28px 22px violet inset;
+          box-shadow: 0px 0px 28px 22px violet inset;
+  width: 500px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+@media (max-width: 550px) {
+  .landingPage .landingPageHeader h1 {
+    font-size: 60px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 375px) {
+  .landingPage .landingPageHeader h1 {
+    width: 250px;
+    font-size: 45px;
+  }
+}
+
+.landingPage .landingPageForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.landingPage .landingPageForm .landingPageButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.landingPage .landingPageForm .landingPageRegister {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 500px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  margin-top: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 100%;
+}
+
+.landingPage .landingPageForm .landingPageRegister .textField {
+  width: 350px;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid violet;
+}
+
+@media (max-width: 375px) {
+  .landingPage .landingPageForm .landingPageRegister .textField {
+    width: 250px;
+  }
+}
+
+@media (max-width: 550px) {
+  .landingPage .landingPageForm .landingPageRegister {
+    width: 400px;
+  }
+}
+
+@media (max-width: 375px) {
+  .landingPage .landingPageForm .landingPageRegister {
+    width: 300px;
+  }
+}
+
+.landingPage .landingPageTagline {
+  margin: 20px auto;
+  text-align: center;
+  font-family: Enriqueta;
+  color: white;
+  font-size: 30px;
+  text-shadow: -3px 5px 4px #005dd4;
+}
+/*# sourceMappingURL=landingPage.css.map */

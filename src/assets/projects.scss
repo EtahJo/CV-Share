@@ -1,0 +1,63 @@
+@import "./variables/Variables.scss";
+
+.project{
+    border: 2px solid $blueColor;
+    margin: 10px;
+    position: relative;
+    &::before{
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba($blueColor,0.5);
+        transition: opacity 400ms ease-in-out;
+        opacity: 0;
+    }
+    &:hover,&:focus{
+        &::before{
+            opacity: 1;
+        }
+        .projectButton{
+            display: block;
+        }
+    }
+    .projectContent{
+        .projectLan{
+            font-style: italic;
+            color: #000;
+            font-family: $bodyFont;
+        }
+       .projectName{
+           font-family: $titleFont;
+           color: rgba($blueColor,1);
+       }
+       .projectDes{
+           color: rgba(0,0,0,0.7);
+           font-family: $bodyFont;
+           font-weight: normal;
+       }
+       .projectDate{
+        margin: 10px 0;
+           span{
+              small{
+                  color: rgba($blueColor,1);
+              }
+           }
+       }
+
+    }
+    .projectButton{
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        display: none;
+        a{
+            text-decoration: none;
+            color: $whiteColor;
+            font-family: $bodyFont;
+        }
+    }
+}

@@ -1,0 +1,75 @@
+@import "./variables/Variables.scss";
+
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+    position: relative;
+     /* ff 3.6+ */
+     background:-moz-linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(238, 130, 238, 1) 100%); 
+
+     /* safari 5.1+,chrome 10+ */
+     background:-webkit-linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(238, 130, 238, 1) 100%);
+ 
+     /* opera 11.10+ */
+     background:-o-linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(238, 130, 238, 1) 100%);
+ 
+     /* ie 6-9 */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee82ee', endColorstr='#0000FF', GradientType=0 );
+ 
+     /* ie 10+ */
+     background:-ms-linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(238, 130, 238, 1) 100%);
+ 
+     /* global 94%+ browsers support */
+     background:linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(238, 130, 238, 1) 100%);
+    .homePreHeader{
+        position: absolute;
+        right: 0px;
+    }
+     .homeContent{
+        display: flex;
+        width: 100%;
+        padding: 100px 0;
+
+    
+     .homeOne{
+    position: fixed;
+    background-color: rgba($whiteColor,0.7);
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: $borderRadius;
+    height: 500px;
+    @media (max-width:962px) {
+     margin-left: 0;
+    }
+ 
+
+    
+}
+.homeFour{
+    flex: 0.8;
+ 
+}
+.homeO{
+    flex:0.8;
+}
+.homeTwo{
+    flex:2;
+    background-color: rgba($whiteColor,0.2);
+    margin: 10px;
+    border-radius: $borderRadius;
+    padding: 30px;
+
+}
+.homeThree{
+   
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: $borderRadius;
+    position: fixed;
+    right: 0;
+}
+    }
+}

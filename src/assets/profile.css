@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Enriqueta:wght@700&family=Montserrat:wght@900&family=Russo+One&display=swap");
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.profile .profileContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.profile .profileContent span {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile .profileContent span small {
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.profile .profileContent span strong {
+  font-size: 20px;
+}
+
+.profilePic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  width: 200px;
+}
+
+@media (max-width: 1174px) {
+  .profilePic {
+    width: 150px;
+  }
+}
+
+.profilePic .avatar {
+  border: 3px solid white;
+  margin: auto;
+  -webkit-box-shadow: 5px -1px 11px 0px black;
+  box-shadow: 5px -1px 11px 0px black;
+}
+
+@media (max-width: 1174px) {
+  .profilePic .avatar {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.profilePic h3 {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 15px;
+  font-family: Enriqueta;
+  font-style: italic;
+  text-align: center;
+}
+/*# sourceMappingURL=profile.css.map */

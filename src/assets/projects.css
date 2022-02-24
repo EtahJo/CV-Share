@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Enriqueta:wght@700&family=Montserrat:wght@900&family=Russo+One&display=swap");
+.project {
+  border: 2px solid #005dd4;
+  margin: 10px;
+  position: relative;
+}
+
+.project::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 93, 212, 0.5);
+  -webkit-transition: opacity 400ms ease-in-out;
+  transition: opacity 400ms ease-in-out;
+  opacity: 0;
+}
+
+.project:hover::before, .project:focus::before {
+  opacity: 1;
+}
+
+.project:hover .projectButton, .project:focus .projectButton {
+  display: block;
+}
+
+.project .projectContent .projectLan {
+  font-style: italic;
+  color: #000;
+  font-family: Enriqueta;
+}
+
+.project .projectContent .projectName {
+  font-family: Russo One;
+  color: #005dd4;
+}
+
+.project .projectContent .projectDes {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Enriqueta;
+  font-weight: normal;
+}
+
+.project .projectContent .projectDate {
+  margin: 10px 0;
+}
+
+.project .projectContent .projectDate span small {
+  color: #005dd4;
+}
+
+.project .projectButton {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  display: none;
+}
+
+.project .projectButton a {
+  text-decoration: none;
+  color: white;
+  font-family: Enriqueta;
+}
+/*# sourceMappingURL=projects.css.map */

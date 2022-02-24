@@ -1,0 +1,97 @@
+@import "./variables/Variables.scss";
+
+.education{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $blueColor;
+    margin: 10px 0;
+    width: 190px;
+    
+
+    .educationYear{
+        background-color: $blueColor;
+        color: $whiteColor;
+        position: relative;
+        padding: 0 20px ;
+        font-family: $bodyFont;
+        h3{
+            font-size: 20px;
+           
+        }
+        p{
+            background-color: $whiteColor;
+            position: absolute;
+            width: 50px;
+            color: black;
+            padding: 6px;
+            font-size: 12px;
+            right: 0;
+            text-align: center;
+        }
+    }
+    .educationInsti{
+        background-color: $whiteColor;
+        color: #000;
+        position: relative;
+        padding: 0 20px;
+        font-family: $bodyFont;
+        h3{
+            font-size: 20px;
+           
+        }
+        p{
+            background-color: $blueColor;
+            position: absolute;
+            color: $whiteColor;
+            width: 50px;
+            padding: 6px;
+            font-size: 11px;
+            right: 0;
+            text-align: center;
+        }
+    }
+    .educationMajor{
+        background-color: $blueColor;
+        color: $whiteColor;
+        position: relative;
+        padding: 0 20px;
+        font-family: $bodyFont;
+        h3{
+            font-size: 20px;
+           
+        }
+        p{
+            background-color: $whiteColor;
+            position: absolute;
+            width: 50px;
+            color: black;
+            padding: 6px;
+            font-size: 12px;
+            right: 0;
+            text-align: center;
+        }
+    }
+    .educationCerti{
+        background-color: $whiteColor;
+        color: #000;
+        position: relative;
+        padding: 0 20px;
+        font-family: $bodyFont;
+        h3{
+            font-size: 20px;
+            
+        }
+        p{
+            background-color: $blueColor;
+            position: absolute;
+            color: $whiteColor;
+            width: 50px;
+            padding: 6px;
+            font-size: 11px;
+            right: 0;
+            
+        }
+    }
+
+
+}
